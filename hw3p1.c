@@ -10,7 +10,8 @@ bool LeftOn(tPointi a, tPointi b, tPointi c);
 bool Left(tPointi a, tPointi b, tPointi c);
 bool Collinear(tPointi a, tPointi b, tPointi c);
 
-
+//---------------------------------------------------------
+// Homework answer starts here
 bool RayRayIntersect(tPointi a, tPointi b, tPointi c, tPointi d)
 {
     // if the segment ab and cd Intersect, return true
@@ -70,6 +71,8 @@ bool RayRayIntersect(tPointi a, tPointi b, tPointi c, tPointi d)
     return FALSE;
 }
 
+// Homework answers ends here
+// -------------------------------------------------------------------------
 // Below are helper funcitons from textbook chapt. 1
 
 int Area2(tPointi a, tPointi b, tPointi c)
